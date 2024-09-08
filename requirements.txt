@@ -1,0 +1,8 @@
+Flask
+scapy
+pika
+pandas
+numpy
+scikit-learn
+sqlalchemy
+pycryptodome
