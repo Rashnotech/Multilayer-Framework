@@ -19,7 +19,7 @@ class BaseModel:
     id = Column(String(100), unique=True, primary_key=True,
                 default= lambda: str(uuid4), nullable=False)
     created_at = Column(DateTime, default=datetime.now(timezone.utc),
-            onupdate=datetime.nwo(timezone.utc), nullable=False)
+            onupdate=datetime.now(timezone.utc), nullable=False)
     updated_at = Column(DateTime, default=datetime.now(timezone.utc),
             nullable=False, onupdate=datetime.now(timezone.utc))
 

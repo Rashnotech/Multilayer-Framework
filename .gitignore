@@ -1,3 +1,7 @@
 venv
 __pycache__/*
 models/__pycache__/*
+models/engine/__pycache__
+routes/__pycache__
+tests/test_models/__pycache__
+config/__pycache__
