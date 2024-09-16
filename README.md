@@ -24,7 +24,7 @@ Activate the virtual environment
 ```
 Install the required module for this project
 ```
-pip3 install -r requirements.text
+pip3 install -r requirements.txt
 ```
 
 ## System Requirements
