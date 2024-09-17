@@ -1,0 +1,33 @@
+README
+------------------------------------------------------------
+
+Welcome to SignatureDB.
+
+-NOTE-NOTE-NOTE-
+
+THIS IS NOT PUBLIC-USABLE AT THE MOMENT, WE DO NOT HAVE A 
+COMPREHENSIVE DATABASE OF SIGNATURES.
+
+If you are looking for a complete AntiVirus solution then 
+you'll have to wait until a few more weeks/months.
+
+-NOTE-NOTE-NOTE-
+
+SignatureDB is currently in it's very preliminary stages of
+growth.  We currently do not have a viable signature database
+but we're working on it.
+
+SignatureDB is a multiple-key, multiple-file search system
+with far superiour performance to running successive 'grep'
+calls to files.
+
+Sorry there isnt a lot to read at the moment, this project is
+just getting off the ground.
+
+
+
+Regards.
+Paul L Daniels
+pldaniels@pldaniels.com
+
+------------------------------------------------------------

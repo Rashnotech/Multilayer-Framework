@@ -4,6 +4,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, scoped_session, Session
 from sys import modules
 from models.base import Base
+from models.black_list import BlackList
 
 
 class DB:

@@ -2,6 +2,12 @@
 """a module that handles packet inspection"""
 from scapy.all import sniff
 from typing import List
+import logging
+
+
+logging.basicConfig(filename='threat.log',
+                    level=logging.INFO,
+                    format="%(asctime)s - %(message)s")
 
 
 class NetworkIntrusion:

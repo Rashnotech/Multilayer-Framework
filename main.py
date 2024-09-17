@@ -5,7 +5,7 @@ from flask_cors import CORS
 from models import storage
 from config.app_config import Config
 from routes import app_views
-
+from server.server_hids import start_hids
 
 app = Flask(__name__)
 
@@ -32,4 +32,5 @@ def forbidden(error) -> dict:
 
 
 if __name__ == '__main__':
+    start_hids()
     app.run(host='0.0.0.0', port=5000)

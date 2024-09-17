@@ -2,7 +2,6 @@
 """Test on base model"""
 import unittest
 from models.base import BaseModel
-from mo
 
 
 class TestBase(unittest.TestCase):

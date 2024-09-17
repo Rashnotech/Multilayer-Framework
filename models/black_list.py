@@ -12,7 +12,7 @@ class BlackList(Base, BaseModel):
     A class that handle blacklist on database
     """
 
-    ipaddress = Column(String(100), nullable=False)
+    ipaddress = Column(String(100), unique=True, nullable=False)
     mode = Column(String(60), nullable=False)
 
     def __init__(self, **kwargs):

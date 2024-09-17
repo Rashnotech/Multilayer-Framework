@@ -1,0 +1,19 @@
+INSTALL.
+-------------------------------------------------------------
+
+make
+make install
+
+This will install signatureDB into the
+ /usr/local/signaturedb directory and create a link
+ of the binary sdbscan in /usr/local/bin
+ 
+signaturedb.conf parameters are basically replicating 
+those of the command line
+
+dbfile=<location of db file>
+verbose=[0/1]
+fastscan=[0/1]
+fastexit=[0/1]
+ 
+------------------------------------------------------------
